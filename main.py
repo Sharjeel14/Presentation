@@ -6,7 +6,7 @@ from flask_httpauth import HTTPBasicAuth
 from flask_cors import CORS
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 COMPLETIONS_MODEL = "text-davinci-003"
 QUESTION_COMPLETIONS_API_PARAMS = {
     # We use temperature of 0.0 because it gives the most predictable, factual answer.
